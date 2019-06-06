@@ -18,7 +18,7 @@ Kubernetes Engine.
 | [![Screenshot of store homepage](./docs/img/hipster-shop-frontend-1.png)](./docs/img/hipster-shop-frontend-1.png) | [![Screenshot of checkout screen](./docs/img/hipster-shop-frontend-2.png)](./docs/img/hipster-shop-frontend-2.png) |
 
 
-| Checkout Cell                                                                                                         | Checkout Screen                                                                                                    |
+| Checkout Cell                                                                                                         | Frontend Cell                                                                                                    |
 | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | [![Screenshot of checkout cell](./docs/img/hipster-shop-checkout.png)](./docs/img/hipster-shop-checkout.png) | [![Screenshot of front-end cell](./docs/img/hipstershop-front-end.png)](./docs/img/hipstershop-front-end.png) |
 
@@ -47,7 +47,25 @@ microservices](./docs/img/architecture-diagram.png)](./docs/img/architecture-dia
 ## Cell Architecture
 
 **Hipster Shop** is composed of many microservices written in different
-languages that talk to each other over gRPC.
+languages that talk to each other over gRPC. This sample is structured into 5 cells: 
+ads-cell
+products-cell
+cart-cell
+checkout-cell
+front-end-cell
 
 [![Cell architecture of
 Hipstershop services](./docs/img/hipstershop-cell-architecture.png)](./docs/img/hipstershop-cell-architecture.png)
+
+Build and Deploy the Hipstershop Cells
+### Checkout Sample
+Clone the wso2-cellery/samples repository
+Navigate to the hipstershop-cellery sample.
+cd <SAMPLES_ROOT>/hipstershop-cellery
+
+### Build and Deploy ads-cell
+cd <SAMPLES_ROOT>/ads-cell <br>
+cellery build ads-cell.bal dakshitha/ads-cell:1.0.0 <br>
+
+[![Cell architecture of
+Hipstershop services](./docs/img/ads-cell-build.png)](./docs/img/ads-cell-build.png)
