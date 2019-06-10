@@ -40,10 +40,10 @@ cellery:Component frontEndComponent = {
         AD_SERVICE_ADDR: { value: "" }
     },
     dependencies: {
-        productsCellDep: <cellery:ImageName>{ org: "dakshitha", name: "hipstershop-products-cell", ver: "1.0.0"},
-        adsCellDep: <cellery:ImageName>{ org: "dakshitha", name: "hipstershop-ads-cell", ver: "1.0.0"},
-        cartCellDep: <cellery:ImageName>{ org: "dakshitha", name: "hipstershop-cart-cell", ver: "1.0.0"},
-        checkoutCellDep: <cellery:ImageName>{ org: "dakshitha", name: "hipstershop-checkout-cell", ver: "1.0.0"}
+        productsCellDep: <cellery:ImageName>{ org: "wso2", name: "products-cell", ver: "1.0.0"},
+        adsCellDep: <cellery:ImageName>{ org: "wso2", name: "ads-cell", ver: "1.0.0"},
+        cartCellDep: <cellery:ImageName>{ org: "wso2", name: "cart-cell", ver: "1.0.0"},
+        checkoutCellDep: <cellery:ImageName>{ org: "wso2", name: "checkout-cell", ver: "1.0.0"}
     }
 };
 
