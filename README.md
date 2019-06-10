@@ -20,8 +20,7 @@ add them to the cart, and purchase them.
 
 ## Service Architecture
 
-**Hipster Shop** is composed of many microservices written in different
-languages that talk to each other over gRPC.
+**Hipster Shop** is composed of many microservices written in different languages that talk to each other over gRPC.
 
 [![Architecture of
 microservices](./docs/img/architecture-diagram.png)](./docs/img/architecture-diagram.png)
@@ -54,11 +53,11 @@ Hipstershop services](./docs/img/hipstershop-cell-architecture.png)](./docs/img/
 
 ## Build and Deploy the Hipstershop Cells
 ### Check Out Sample
-Clone the hipstershop-cellery repository
-Navigate to the hipstershop-cellery sample.
+Clone the hipstershop-cellery repository and 
+navigate to the hipstershop-cellery sample. <br>
 cd hipstershop-cellery/
 
-Run the following command (required for cellery version 0.2.0 and if the setup is local)
+Run the following command (required for cellery version 0.2.0 and if the setup is local)<br>
 kubectl apply -f controller.yaml
 
 ### Build and Run <b>ads-cell</b>
