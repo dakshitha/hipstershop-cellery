@@ -6,11 +6,6 @@ The Hipster Shop project contains a 10-tier microservices application. The appli
 web-based e-commerce app called **“Hipster Shop”** where users can browse items,
 add them to the cart, and purchase them.
 
-**Google uses this application to demonstrate use of technologies like
-Kubernetes/GKE, Istio, Stackdriver, gRPC and OpenCensus**. This application
-works on any Kubernetes cluster (such as a local one), as well as Google
-Kubernetes Engine. 
-
 ## Screenshots
 
 | Home Page                                                                                                         | Checkout Screen                                                                                                    |
