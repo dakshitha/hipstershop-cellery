@@ -97,8 +97,7 @@ cd hipstershop-cellery/checkout-cell<br>
 cellery build checkout-cell.bal wso2/checkout-cell:1.0.0
 [![Cell architecture of Hipstershop services](./docs/img/checkout-cell-build.png)](./docs/img/checkout-cell-build.png)
 
-cellery run wso2/checkout-cell:1.0.0 -n checkout-cell -l cartCellDep:cart-cell -l productsCellDep:products-cell -
-
+cellery run wso2/checkout-cell:1.0.0 -n checkout-cell -l cartCellDep:cart-cell -l productsCellDep:products-cell -d
 [![Cell architecture of Hipstershop services](./docs/img/checkout-cell-run.png)](./docs/img/checkout-cell-run.png)
 
 ### Build and Run <b>frontend-cell</b>
