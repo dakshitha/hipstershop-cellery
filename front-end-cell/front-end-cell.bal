@@ -7,7 +7,7 @@ int cartPort = 31407;
 int recommendationsPort =31407;
 int shippingPort = 31407;
 int adsPort = 31406;
-int checkoutPort = 5050;
+int checkoutPort = 31409;
 
 int frontEndPort = 80;
 
