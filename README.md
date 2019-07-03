@@ -1,5 +1,7 @@
 # Cell-based Hipster Shop Application
 
+<i>This sample has been tested on Cellery version 0.2.0</i>
+
 All details of the original Hipster Shop: Cloud-Native Microservices Demo Application can be found [here](https://github.com/GoogleCloudPlatform/microservices-demo). 
 
 Cellery is a code-first approach to building, integrating, running and managing composite microservice applications on Kubernetes. Read the [Cellery documentation](https://github.com/wso2-cellery/sdk) to learn how to set up Cellery and get started. 
